@@ -1,6 +1,6 @@
 # Python Tankstellen Api Wrapper 
 
-Dies ist ein API Wrapper für Tankstellen in Deutschland. Als Quelle wird [TankerKönig](https://creativecommons.tankerkoenig.de/) verwendet.
+Dies ist ein API Wrapper für Tankstellen in Deutschland. Als Quelle wird [TankerKönig](https://tankerkoenig.de/) verwendet.
 
 ## Getting started
 1. API Key: </br>
