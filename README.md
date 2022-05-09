@@ -18,4 +18,4 @@ Dies ist ein API Wrapper für Tankstellen in Deutschland. Als Quelle wird [Tanke
     
 # Libs
 [pgeocode](https://pypi.org/project/pgeocode/): Für die Längen- und Breitengrade von einer Postleitzahl </br>
-[requests](https://pypi.org/project/requests/): Zum aufrufen der TankerKönig API  </br>
+[requests](https://pypi.org/project/requests/): Zum aufrufen der TankerKönig API
