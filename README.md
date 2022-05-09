@@ -15,7 +15,7 @@ Dies ist ein API Wrapper für Tankstellen in Deutschland. Als Quelle wird [Tanke
 3. ApiHandler:
     1. api Objekt erstellen. Mit übergeben wird die Postleitzahl und das secret Objekt
     2. Methoden:
-        - ## getGasStations(raduisInKM:float, spritType:str, onlyInThisPostCode:bool, sortedBy:str):
+        - ### getGasStations(raduisInKM:float, spritType:str, onlyInThisPostCode:bool, sortedBy:str):
           - raduisInKM: 
             - max: 25
             - Radius in Kilometer um die Postleitzahl herum
@@ -34,7 +34,7 @@ Dies ist ein API Wrapper für Tankstellen in Deutschland. Als Quelle wird [Tanke
             - none: gibt die Liste ohne überarbeitung weiter
           - return value:
             - Liste der Tankstellen
-        - ## getGasStationDetail(stationID:str):
+        - ### getGasStationDetails(stationID:str):
           - stationID: die Tankstellen ID
           - return value:
             - gasStationDetail Objekt (classes.gasStationDetail)
