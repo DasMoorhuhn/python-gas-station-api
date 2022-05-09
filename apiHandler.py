@@ -23,7 +23,7 @@ class api:
         self.__listURL = f"{self.__baseURL}/list.php" # Umkreissuche
         self.__detailURL = f"{self.__baseURL}/detail.php" # Details zu einer bestimmten Tankstelle
         self.__reportURL = f"{self.__baseURL}/complaint.php" # Zum Melden von falschen Angaben
-        self.version = "0.0.1"
+        self.version = "0.0.2b"
         self.date = "09.05.2022"
 
         self.__stations = [] 
