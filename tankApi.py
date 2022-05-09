@@ -9,8 +9,10 @@ if value == 0:
     stations = api.getGasStations(onlyInThisPostCode=True, raduisInKM=5, spritType="all")
     for station in stations:
         station:gasSation
-        print(station.postCode)
+        stationDetail = api.getGasStaionDetails(staionID=station.id)
+        stationDetail:gasSationDetail
         print(station.brand)
+        print(stationDetail.wholeDay)
         print("")
 else:
     exit("Error reading secret")
