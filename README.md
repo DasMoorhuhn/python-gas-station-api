@@ -17,5 +17,5 @@ Dies ist ein API Wrapper für Tankstellen in Deutschland. Als Quelle wird [Tanke
     1. api Objekt erstellen. Mit übergeben wird die Postleitzahl und das secret Objekt
     
 # Libs
-[pgeocode](https://pypi.org/project/pgeocode/)
-[requests](https://pypi.org/project/requests/)
+[pgeocode](https://pypi.org/project/pgeocode/): Für die Längen- und Breitengrade von einer Postleitzahl</br>
+[requests](https://pypi.org/project/requests/): Zum aufrufen der TankerKönig API  </br>
